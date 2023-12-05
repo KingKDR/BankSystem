@@ -6,10 +6,8 @@ public class Bank {
 		// TODO Auto-generated method stub
 		
 		Service sc = new Service();
-//		while(true) {
-//			sc.displayMenu();
-//		}
-		BankDb d = new BankDb();
-		d.dispalyAcc();
+		while(true) {
+			sc.displayMenu();
+		}
 	}
 }
